@@ -30,6 +30,7 @@ Getting Started
  - 1.Download esik-scripts && kafka-secrets
 ```shell script
 git clone https://github.com/PharbersDeveloper/esik-scripts
+cd esik-scripts
 git clone https://github.com/PharbersDeveloper/kafka-secrets
 ```
  - 2.Initialize esik's dependency (You only need to do this once)
