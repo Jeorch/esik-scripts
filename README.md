@@ -41,8 +41,14 @@ sh init-esik-dependency.sh
 sh start-esik.sh
 ```
 ***If you want run esik directly, you should set env before running.***
+ ```shell script
+export PKG_CONFIG_PATH=/usr/lib/pkgconfig
+export LOGGER_DEBUG=true
+export BM_KAFKA_CONF_HOME=${PWD}/kafkaconfig.json
+./esik
+ ```
 
  - 4.Create Kafka sink-elasticsearch-connector (You only need to do this once)
  ```shell script
- sh create-sink-es-connector.sh
+sh create-sink-es-connector.sh
  ```
