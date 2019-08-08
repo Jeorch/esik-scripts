@@ -48,9 +48,3 @@ export LOGGER_DEBUG=true
 export BM_KAFKA_CONF_HOME=${PWD}/kafkaconfig.json
 ./esik
  ```
-
- - 4.Create Kafka sink-elasticsearch-connector (You only need to do this once)
- *Before do this step, you need to cheek connector_server & es_server is available*
- ```shell script
-sh create-sink-es-connector.sh
- ```
